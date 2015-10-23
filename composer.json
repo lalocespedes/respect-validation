@@ -1,0 +1,18 @@
+{
+    "autoload":{
+        "psr-4":{
+            "lalocespedes\\": "app//lalocespedes"
+        }
+    },
+    "name": "user/respectvalid",
+    "authors": [
+        {
+            "name": "lalocespedes",
+            "email": "lalocespedes@gmail.com"
+        }
+    ],
+    "require": {
+        "respect/validation": "^0.9.3",
+        "symfony/var-dumper": "^2.7"
+    }
+}
